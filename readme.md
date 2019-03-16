@@ -8,6 +8,7 @@ This project has some basic examples with docker. The purpose is to be a persona
 - [Example 4: Running containers and copy files for it](#4-build-with-copy-example)
 - [Example 5: Running an container as a simple python server](#5-build-dev-example)
 - [Example 6: A AMPP environment using docker-compose](#x-ampp-environment-docker-compose)
+- [Example 7: Simple docker-compose example](#7-docker-compose-example)
 
 ## <a name="1-build-first-example">Example 1: A basic Dockerfile</a>
 In this example we download a simple image of nginx server and start the container runing a simple comand to echo 'hello'.
