@@ -14,7 +14,9 @@ In this example we download a simple image of nginx server and start the contain
 ```
 docker image build -t ex-simple-build
 run docker image ls
-#see the image
+```
+Take a look on the image. Now lets start it:
+```
 docker container run -p 80:80 ex-simple-build
 ```
 
@@ -24,8 +26,9 @@ In this example we download a debian image and start a simple container with. In
 ```
 docker image build -t ex-build-arg .
 docker container run ex-build-arg bash -c 'echo $S3_BUCKET'
-#the 'file' value will be showed because we dont build the image saying his value
-
+```
+The 'file' value will be showed because we dont build the image saying his value. Now we can see:
+```
 docker image build --build-arg S3_BUCKET=myapp . -t ex-build-arg .
 docker container run ex-build-arg bash -c 'echo $S3_BUCKET'
 ```
