@@ -71,4 +71,10 @@ Inside the example's folder we have 2 subfolders:
 Others stuffs are inside docker-compose.yml, like mysql and phpmyadmin image descriptions and configuration. 
 
 To run it, just type this command:
-```docker-compose run```
+```docker-compose up```
+
+## <a name="7-docker-compose-example">Example 7: A docker-compose example</a>
+In this example we create a docker-compose.yml and configure three items: backend, frontend and database. The backend has app.js to proccess requests and frontend just show a simple string on screen.
+
+To run it, just type this command:
+```docker-compose up``` 
