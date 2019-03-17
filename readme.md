@@ -1,5 +1,5 @@
 # Docker Sandbox Examples
-This project has some basic examples with docker. The purpose is to be a personal reference for me but I i'm sharing because I hope this can be useful for someone. To run those examples be sure to run commands inside each directory.
+This project has some basic examples with docker. The purpose is to be a personal reference for me but I am sharing this because I think can be useful for someone. To run those examples be sure to run commands inside each directory.
 
 # Table of Contents
 - [Example 1: A basic Dockerfile](#1-build-first-example)
@@ -79,3 +79,6 @@ In this example we create a docker-compose.yml and configure three items: backen
 
 To run it, just type this command:
 ```docker-compose up``` 
+
+## <a name="8-docker-compose-postgres-example">Example 8: Postgres and PGAdmin4 Example</a>
+The `docker-compose.yml` content declare two services, an postgres (latest) database and an pgadmin4 (latest). Take a look inside users and passwords and customize as you want. I don't know why, but when declare the postgres:9.6 I was unable to connect with pgadmin. If you know why, please give-me a tip :)
